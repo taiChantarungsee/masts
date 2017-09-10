@@ -1,0 +1,6 @@
+.git
+*.pyc
+bin
+include
+lib
+local
