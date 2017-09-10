@@ -10,7 +10,7 @@
 	</header>
 	<body>
 		<div>
-		 <table id="table" data-toggle="table" data-classes="table table-condensed" data-striped="true" data-pagination="true" data-height="500" data-mobile-responsive="true">
+		 <table id="table" data-toggle="table" data-classes="table table-condensed" data-striped="true" data-pagination="true" data-height="400" data-mobile-responsive="true">
 		 	<thead>
 		 		<tr>
 		 			<th>name</th>
@@ -40,6 +40,58 @@
 		 			<td>{{tenant.lease_end_date}}</td>
 		 			<td>{{tenant.lease_years}}</td>
 		 			<td>{{tenant.current_rent}}</td>
+		 		</tr>
+		 	{% endfor %}
+		 	</tbody>
+		 	</table>
+		 <span><h3>Total rent for all items in list is: {{total_rent_value}}</h3></span>
+		 <table id="table" data-toggle="table" data-classes="table table-condensed" data-striped="true" data-pagination="true" data-height="400" data-mobile-responsive="true">
+		 	<thead>
+		 		<tr>
+		 			<th>name</th>
+		 			<th>address1</th>
+		 			<th>address2</th>
+		 			<th>address3</th>
+		 			<th>address4</th>
+		 			<th>unit name</th>
+		 			<th>tenant name</th>
+		 			<th>lease start date</th>
+		 			<th>lease end date</th>
+		 			<th>lease years</th>
+		 			<th data-sortable="true">current rent</th>
+		 		</tr>
+		 	</thead>
+		 	<tbody>
+		 	{% for tenant in rental_dates %}
+		 		<tr>
+		 			<td>{{tenant.name}}</td>
+		 			<td>{{tenant.address1}}</td>
+		 			<td>{{tenant.address2}}</td>
+		 			<td>{{tenant.address3}}</td>
+		 			<td>{{tenant.address4}}</td>
+		 			<td>{{tenant.unit_name}}</td>
+		 			<td>{{tenant.tenant_name}}</td>
+		 			<td>{{tenant.lease_start_date}}</td>
+		 			<td>{{tenant.lease_end_date}}</td>
+		 			<td>{{tenant.lease_years}}</td>
+		 			<td>{{tenant.current_rent}}</td>
+		 		</tr>
+		 	{% endfor %}
+		 	</tbody>
+		 	</table>
+		 	<h2>This table lists tenants and number of masts for each one.</h2>
+		 	<table id="table" data-toggle="table" data-classes="table table-condensed" data-striped="true" data-pagination="true" data-height="400" data-mobile-responsive="true">
+		 	<thead>
+		 		<tr>
+		 			<th>name</th>
+		 			<th>number of masts</th>
+		 		</tr>
+		 	</thead>
+		 	<tbody>
+ 			{% for key,value in dictionary.items %}
+ 				<tr>
+ 					<td>{{key}}</td>
+ 					<td>{{value}}</td>
 		 		</tr>
 		 	{% endfor %}
 		 	</tbody>
