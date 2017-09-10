@@ -1,16 +1,17 @@
 from django.shortcuts import render
 from django.db.models import Sum
-import datetime
+from .models import CsvData
+from datetime import datetime
 
 #Function to convert dates into the right format.
-def monthToNum(tenant):
-	tenant.lease_start_date = datetime.strptime(tenant.lease_start_date, '%d-%b-%y').strftime('%d-%m-%Y')
-	tenant.lease_end_date =  datetime.strptime(tenant.lease_start_date, '%d-%b-%y').strftime('%d-%m-%Y')
-	tenant.save()
+#def monthToNum(tenant):
+#	tenant.lease_start_date = datetime.strptime(tenant.lease_start_date, '%d-%m-%y').strftime('%d-%m-%Y')
+#	tenant.lease_end_date =  datetime.strptime(tenant.lease_end_date, '%d-%m-%y').strftime('%d-%m-%Y')
+#	tenant.save()
 
 def index(request):
-	#Produce a list sorted by lease amount (rent) in descending order.
-	rent_desc = CsvData.objects.order_by('-current_rent')
+	#Produce a list sorted by lease amount (rent) in ascending order.
+	rent_ascending = CsvData.objects.order_by('current_rent')
 
 	#For displaying the total rent for all items in the list.
 	total_rent = CsvData.objects.aggregate(Sum('current_rent'))
@@ -28,17 +29,17 @@ def index(request):
 	#List the data for rentals with lease dates from 1 june 1999 and 31 August 2007 with format of DD/MM/YYYY.
 	#Convert fields first.
 
-	for tenant in tenants:
-		monthToNum(tenant)
+#	for tenant in tenants:
+#		monthToNum(tenant)
 
 	rental_dates = CsvData.objects.filter(lease_start_date__range=["01-06-1999", "31-08-2007"])
 
 	#Send all the processed data to the context.
 	context = {
-		'rent_desc':rent_desc
-		'total_rent':total_rent
-		'dictionary':dictionary
-		'rental_dates':rental_dates
+		'rent_ascending':rent_ascending,
+		'total_rent':total_rent,
+		'dictionary':dictionary,
+		'rental_dates':rental_dates,
 	}
 
 	return render(request, 'masts/index.html', context)
