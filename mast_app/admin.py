@@ -1,3 +1,4 @@
 from django.contrib import admin
+from mast_app.models import CsvData
 
-# Register your models here.
+admin.site.register(CsvData)

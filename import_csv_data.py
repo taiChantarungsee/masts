@@ -1,8 +1,8 @@
 #Script to import all the CSV data into a django model
 import csv
-from masts.models import CsvData
+from mast_app.models import CsvData
 
-with open('Mobile Phone Masts Csv.csv') as f:
+with open('Mobile Phone Masts.csv') as f:
 	reader = csv.reader(f)
 	for row in reader:
 		if row[0] != 'Property Name':
