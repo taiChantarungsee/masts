@@ -1,0 +1,716 @@
+[
+{
+    "model": "mast_app.csvdata",
+    "pk": 85,
+    "fields": {
+        "name": "Beecroft Hill",
+        "address1": "Broad Lane",
+        "address2": "",
+        "address3": "",
+        "address4": "LS13",
+        "unit_name": "Beecroft Hill - Telecom App",
+        "tenant_name": "Arqiva Services ltd",
+        "lease_start_date": "01-03-1994",
+        "lease_end_date": "28-02-2058",
+        "lease_years": 64,
+        "current_rent": 23950.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 86,
+    "fields": {
+        "name": "Potternewton Crescent",
+        "address1": "Potternewton Est Playing Field",
+        "address2": "",
+        "address3": "",
+        "address4": "LS7",
+        "unit_name": "Potternewton Est Playing Field",
+        "tenant_name": "Arqiva Ltd",
+        "lease_start_date": "24-06-1999",
+        "lease_end_date": "23-06-2019",
+        "lease_years": 20,
+        "current_rent": 6600.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 87,
+    "fields": {
+        "name": "Seacroft Gate (Chase) - Block 2",
+        "address1": "Telecomms Apparatus",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS14",
+        "unit_name": "Seacroft Gate (Chase) block 2-Telecom App.",
+        "tenant_name": "Vodafone Ltd.",
+        "lease_start_date": "30-01-2004",
+        "lease_end_date": "29-01-2029",
+        "lease_years": 25,
+        "current_rent": 12250.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 88,
+    "fields": {
+        "name": "Queenswood Heights",
+        "address1": "Queenswood Heights",
+        "address2": "Queenswood Gardens",
+        "address3": "Headingley",
+        "address4": "Leeds",
+        "unit_name": "Queenswood Hgt-Telecom App.",
+        "tenant_name": "Vodafone Ltd",
+        "lease_start_date": "08-11-2004",
+        "lease_end_date": "07-11-2029",
+        "lease_years": 25,
+        "current_rent": 9500.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 89,
+    "fields": {
+        "name": "Armley - Burnsall Grange",
+        "address1": "Armley",
+        "address2": "LS13",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Burnsall Grange CSR 37865",
+        "tenant_name": "O2 (UK) Ltd",
+        "lease_start_date": "26-07-2007",
+        "lease_end_date": "25-07-2032",
+        "lease_years": 25,
+        "current_rent": 12000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 90,
+    "fields": {
+        "name": "Seacroft Gate (Chase) - Block 2",
+        "address1": "Telecomms Apparatus",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS14",
+        "unit_name": "Seacroft Gate (Chase) - Block 2, WYK 0414",
+        "tenant_name": "Hutchinson3G Uk Ltd&Everything Everywhere Ltd",
+        "lease_start_date": "21-08-2007",
+        "lease_end_date": "20-08-2032",
+        "lease_years": 25,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 91,
+    "fields": {
+        "name": "Cottingley Towers",
+        "address1": "Leeds",
+        "address2": "",
+        "address3": "",
+        "address4": "LS11",
+        "unit_name": "Cottingley Towers-WYK0052",
+        "tenant_name": "Everything Everywhere Ltd",
+        "lease_start_date": "28-01-2008",
+        "lease_end_date": "27-01-2018",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 92,
+    "fields": {
+        "name": "Potternewton Heights - Tel App",
+        "address1": "Potternewton Heights",
+        "address2": "Potternewton Lne",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Potternewton Heights",
+        "tenant_name": "Everything Everywhere Ltd",
+        "lease_start_date": "04-03-2008",
+        "lease_end_date": "03-03-2018",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 93,
+    "fields": {
+        "name": "Gipton Gate West",
+        "address1": "Leeds",
+        "address2": "",
+        "address3": "",
+        "address4": "LS9",
+        "unit_name": "Gipton Gate West-WYK0021",
+        "tenant_name": "Everything Everywhere Ltd & Hutchinson 3G UK",
+        "lease_start_date": "01-04-2008",
+        "lease_end_date": "31-03-2018",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 94,
+    "fields": {
+        "name": "Theaker Lane",
+        "address1": "Burnsall Grange",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS12",
+        "unit_name": "Burnsall Grange - WYK0144",
+        "tenant_name": "Everything Everywhere Ltd",
+        "lease_start_date": "29-04-2008",
+        "lease_end_date": "28-04-2018",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 95,
+    "fields": {
+        "name": "Gledhow Towers - Telecom App",
+        "address1": "Brackenwood Drive",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Gledhow Towers - WYK0188",
+        "tenant_name": "Everything Everywhere Ltd & Hutchinson 3G UK",
+        "lease_start_date": "20-05-2008",
+        "lease_end_date": "19-05-2018",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 96,
+    "fields": {
+        "name": "Lovell Park Heights",
+        "address1": "Yeb",
+        "address2": "",
+        "address3": "",
+        "address4": "LS7",
+        "unit_name": "Lovell Park Heights-- WYK0207",
+        "tenant_name": "Everything Everywhere Ltd",
+        "lease_start_date": "17-06-2008",
+        "lease_end_date": "16-06-2018",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 97,
+    "fields": {
+        "name": "Shakespeare Towers",
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "address4": "LS9",
+        "unit_name": "Shakespeare Towers ref 1704255985",
+        "tenant_name": "EverythingEverywhere Ltd & Hutchinson3GUK Ltd",
+        "lease_start_date": "10-06-2009",
+        "lease_end_date": "09-06-2019",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 98,
+    "fields": {
+        "name": "Grayson Heights",
+        "address1": "Eden Mount",
+        "address2": "Burley Park",
+        "address3": "Leeds",
+        "address4": "LS5",
+        "unit_name": "Grayson Heights LDS175   LS0029",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 99,
+    "fields": {
+        "name": "Oatland Towers",
+        "address1": "Little London",
+        "address2": "",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Oatland Towers LDS133   99603",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 15296.63
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 100,
+    "fields": {
+        "name": "The Heights East",
+        "address1": "Gamble Hill",
+        "address2": "Bramley",
+        "address3": "Leeds 12",
+        "address4": "",
+        "unit_name": "The Heights East LDS045   55032",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 101,
+    "fields": {
+        "name": "The Heights",
+        "address1": "Farrow Bank Gamble Hill",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Raynville Court LDS047   55035",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK LTd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 102,
+    "fields": {
+        "name": "Barncroft Towers",
+        "address1": "Seacroft",
+        "address2": "Yeb Ref 10462",
+        "address3": "",
+        "address4": "LS14",
+        "unit_name": "Barncroft Towers - Site Ref LDS138   99632",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 103,
+    "fields": {
+        "name": "Queens View",
+        "address1": "Seacroft",
+        "address2": "",
+        "address3": "",
+        "address4": "LS14",
+        "unit_name": "Queens View LDS232   LS0098",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 28327.09
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 104,
+    "fields": {
+        "name": "Parkway Grange",
+        "address1": "Foundry Lane",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS14",
+        "unit_name": "Parkway Grange - Site Ref LDS134   99604",
+        "tenant_name": "Everything Everywhere Ltd&Hutchsion 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 105,
+    "fields": {
+        "name": "Seacroft Gate Block 1",
+        "address1": "Eastdean",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Seacroft Gate Block 1 LDS032   55007",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 106,
+    "fields": {
+        "name": "Cartmell Drive",
+        "address1": "Halton Moor",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS15",
+        "unit_name": "Lakeland Court Flats Cell LDS142   99925",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 107,
+    "fields": {
+        "name": "Norman Towers (Telecom Appar)",
+        "address1": "Spen Lane",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS16",
+        "unit_name": "Norman Towers LDS132 (Telecom Appar)   99448",
+        "tenant_name": "Everything Everywhere Ltd&Hutchsion 3G Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 14730.08
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 108,
+    "fields": {
+        "name": "Clayton Court",
+        "address1": "Fillingfir Drive",
+        "address2": "",
+        "address3": "Leeds",
+        "address4": "LS18",
+        "unit_name": "Clayton Court LDS198   LS0056",
+        "tenant_name": "Everything Everywhere Ltd & Hutchison 3G Ltd",
+        "lease_start_date": "01-08-2009",
+        "lease_end_date": "31-07-2019",
+        "lease_years": 10,
+        "current_rent": 15296.63
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 109,
+    "fields": {
+        "name": "Meynell Heights",
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "address4": "LS11",
+        "unit_name": "Meynell Heights- Wyk0184",
+        "tenant_name": "Everything Everywhere Ltd & Hutchinson 3G UK",
+        "lease_start_date": "03-08-2009",
+        "lease_end_date": "02-08-2019",
+        "lease_years": 10,
+        "current_rent": 12750.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 110,
+    "fields": {
+        "name": "Larkhill Road",
+        "address1": "Lidgett Towers",
+        "address2": "Larkhill Road",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Lidgett Towers - Site ref 27874",
+        "tenant_name": "Everything Everywhere Ltd&Hutchison 3G UK Ltd",
+        "lease_start_date": "05-07-2010",
+        "lease_end_date": "04-07-2020",
+        "lease_years": 10,
+        "current_rent": 13000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 111,
+    "fields": {
+        "name": "Marlborough Towers",
+        "address1": "Marlborough Towers",
+        "address2": "Park Lane",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Marlborough Towers-Telecom App 7942vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 112,
+    "fields": {
+        "name": "Queenswood Drive - Telecom Site",
+        "address1": "Headingley",
+        "address2": "Leeds",
+        "address3": "LS6",
+        "address4": "",
+        "unit_name": "Queenswood Drive-Q'wood Ct building 19089o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 113,
+    "fields": {
+        "name": "Clayton Court",
+        "address1": "Fillingfir",
+        "address2": "",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Clayton Court 11279vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 114,
+    "fields": {
+        "name": "Gledhow Towers - Telecom App",
+        "address1": "Brackenwood Drive",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Gledhow Towers - Telecom App (34909vf)",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 115,
+    "fields": {
+        "name": "Larkhill Road",
+        "address1": "Lidgett Towers",
+        "address2": "Larkhill Road",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Lidgett Towers - Telecom App 3420vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 116,
+    "fields": {
+        "name": "Gipton Gate East",
+        "address1": "Oaktree Drive",
+        "address2": "",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Gipton Gate East 23201vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 117,
+    "fields": {
+        "name": "The Heights East",
+        "address1": "Armley",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS12",
+        "unit_name": "The Heights East- 4797o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 118,
+    "fields": {
+        "name": "Burnsall Gardens",
+        "address1": "Theaker Lane",
+        "address2": "",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Burnsall Gardens - Cell No 23144vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 17000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 119,
+    "fields": {
+        "name": "Poplar Mount",
+        "address1": "Armley",
+        "address2": "",
+        "address3": "",
+        "address4": "LS13",
+        "unit_name": "Poplar Mount Telecom Site 34884vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 120,
+    "fields": {
+        "name": "Barncroft Court",
+        "address1": "Seacroft",
+        "address2": "Yeb Ref 10463",
+        "address3": "",
+        "address4": "LS14",
+        "unit_name": "Barncroft Court 34196o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 121,
+    "fields": {
+        "name": "Barncroft Grange",
+        "address1": "Boggart Hill Drive",
+        "address2": "Seacroft",
+        "address3": "Leeds",
+        "address4": "LS14",
+        "unit_name": "Barncroft Grange Site 10639vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 17000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 122,
+    "fields": {
+        "name": "Bailey Lane",
+        "address1": "Baileys Lane",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "",
+        "unit_name": "Baileys Towers, Bailey Lane Ref 33420o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 123,
+    "fields": {
+        "name": "Sherburn Court",
+        "address1": "Mill Green",
+        "address2": "",
+        "address3": "Leeds",
+        "address4": "",
+        "unit_name": "Sherburn Court CSR 16878o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 124,
+    "fields": {
+        "name": "Cartmell Drive",
+        "address1": "Halton Moor",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS15",
+        "unit_name": "Lakeland Court Cell No 35649o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 125,
+    "fields": {
+        "name": "Norman Towers (Telecom Appar)",
+        "address1": "Spen Lane",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS16",
+        "unit_name": "Norman Towers (Telecom Appar) 1701o2",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 22500.0
+    }
+},
+{
+    "model": "mast_app.csvdata",
+    "pk": 126,
+    "fields": {
+        "name": "King Lane",
+        "address1": "Leafield Towers",
+        "address2": "Leeds",
+        "address3": "",
+        "address4": "LS16",
+        "unit_name": "Leafield Towers - Cell 5516vf",
+        "tenant_name": "Cornerstone Telecommunications Infrastructure",
+        "lease_start_date": "31-03-2015",
+        "lease_end_date": "30-03-2030",
+        "lease_years": 15,
+        "current_rent": 15000.0
+    }
+}
+]

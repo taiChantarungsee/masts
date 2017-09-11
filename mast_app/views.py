@@ -6,10 +6,10 @@ from datetime import datetime
 from django.core import serializers
 
 #Function to convert dates into the right format.
-#def monthToNum(tenant):
-#	tenant.lease_start_date = datetime.strptime(tenant.lease_start_date, '%d-%b-%y').strftime('%d-%m-%Y')
-#	tenant.lease_end_date =  datetime.strptime(tenant.lease_end_date, '%d-%b-%y').strftime('%d-%m-%Y')
-#	tenant.save()
+def monthToNum(tenant):
+	tenant.lease_start_date = datetime.strptime(tenant.lease_start_date, '%d-%m-%y').strftime('%d-%m-%y')
+	tenant.lease_end_date =  datetime.strptime(tenant.lease_end_date, '%d-%m-%y').strftime('%d-%m-%y')
+	tenant.save()
 
 def index(request):
 	#Handle forms first.
@@ -37,7 +37,13 @@ def index(request):
 			if other_tenants.tenant_name == tenant.tenant_name:
 				number_of_masts += 1
 		dictionary[tenant.tenant_name] = number_of_masts
-		
+
+	#For formatting dates in models correctly
+	sample_data = CsvData.objects.all().first()
+	if any(c.isalpha() for c in sample_data.lease_start_date):
+		for tenant in tenants:
+			monthToNum(tenant)
+
 	#List the data for rentals with lease dates from 1 june 1999 and 31 August 2007 with format of DD/MM/YYYY.
 	#Convert fields first.
 	rental_dates = []
@@ -48,10 +54,6 @@ def index(request):
 		if start_date > start and start_date < end:	
 			rental_dates.append(tenant)
 
-	#For formatting dates in models correctly
-	#for tenant in tenants:
-	#	monthToNum(tenant)
-
 	#Send all the processed data to the context.
 	context = {
 		'form':form,
@@ -59,6 +61,5 @@ def index(request):
 		'total_rent_value':total_rent_value,
 		'rental_dates':rental_dates,
 		'dictionary':dictionary,
-		#'rental_dates':rental_dates,
 	}
 	return render(request, 'masts/index.html', context)
