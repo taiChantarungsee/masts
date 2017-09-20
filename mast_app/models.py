@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import datetime
 
 class CsvData(models.Model):
 	name = models.CharField(max_length=30)
@@ -12,3 +13,7 @@ class CsvData(models.Model):
 	lease_end_date = models.CharField(max_length=30, null=True)
 	lease_years = models.IntegerField(null=True)
 	current_rent = models.FloatField(null=True)
+
+	def get_start_date(self):
+		start_date = datetime.strptime(self.lease_start_date, '%d-%m-%Y')
+		return start_date
